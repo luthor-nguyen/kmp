@@ -39,13 +39,14 @@
                   }
                 },
                 {
-                  "type": "Radio",
+                  "type": "Checkbox",
                   "props": {
                     "align": "left",
-                    "label": "radio",
-                    "value": "1",
-                    "id": "Radio-5690bb2d-1257-4de2-a65d-472ea76333ea",
-                    "name": "radio"
+                    "text": "Is EntryField",
+                    "width": "100%",
+                    "height": "50px",
+                    "id": "Checkbox-b803e724-678b-48ca-bd11-23ed70ce9a37",
+                    "name": "isEntryField"
                   }
                 }
               ],
@@ -61,15 +62,14 @@
             "type": "HStack",
             "props": {
               "items": [
-                  {
-                  "type": "Checkbox",
+                {
+                  "type": "Radio",
                   "props": {
                     "align": "left",
-                    "text": "Is EntryField",
-                    "width": "100%",
-                    "height": "50px",
-                    "id": "Checkbox-b803e724-678b-48ca-bd11-23ed70ce9a37",
-                    "name": "isEntryField"
+                    "label": "radio",
+                    "value": "1",
+                    "id": "Radio-5690bb2d-1257-4de2-a65d-472ea76333ea",
+                    "name": "radio"
                   }
                 },
                 {
