@@ -28,7 +28,7 @@
             "props": {
               "items": [
                 {
-                  "type": "Select1",
+                  "type": "Select",
                   "props": {
                     "label": "Label1",
                     "type": "text",
