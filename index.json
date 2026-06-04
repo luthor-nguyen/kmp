@@ -1,0 +1,8 @@
+{
+  "forms": [
+    { "id": "event",      "name": "Event",             "url": "Event.json" },
+    { "id": "audit-logs", "name": "Audit Logs",        "url": "Audit-logs.json" },
+    { "id": "model",      "name": "Model Detail Page", "url": "model-detail-page.json" },
+    { "id": "elements",   "name": "Form Elements",     "url": "Form Elements.json" }
+  ]
+}
