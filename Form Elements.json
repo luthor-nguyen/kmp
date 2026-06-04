@@ -28,15 +28,14 @@
             "props": {
               "items": [
                 {
-                  "type": "Select",
+                  "type": "Input",
                   "props": {
-                    "label": "Label1",
-                    "type": "text",
+                    "placeholder": "Name",
                     "size": "md",
-                    "placeholder": "Database1",
-                    "options": "MongoDB1, Postgres1,",
-                    "id": "Select-221158a4-f37a-400d-80bc-1dc5aabe6c5e",
-                    "name": "database1"
+                    "variant": "outline",
+                    "type": "text",
+                    "id": "Input-9718fa11-6fb7-4fa4-bce7-a0fafb182a6f",
+                    "name": "name"
                   }
                 },
                 {
