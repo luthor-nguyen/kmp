@@ -73,14 +73,15 @@
                   }
                 },
                 {
-                 "type": "Input",
+                  "type": "Select",
                   "props": {
-                    "placeholder": "Test 1",
-                    "size": "md",
-                    "variant": "outline",
+                    "label": "Label",
                     "type": "text",
-                    "id": "Input-9718fa11-6fb7-4fa4-bce7-a0fafb182a5p",
-                    "name": "test"
+                    "size": "md",
+                    "placeholder": "Database",
+                    "options": "MongoDB, Postgres,",
+                    "id": "Select-771158a4-f37a-400d-80bc-1dc5aabe6c5e",
+                    "name": "database"
                   }
                 }
               ],
