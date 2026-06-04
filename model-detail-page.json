@@ -1,0 +1,160 @@
+{
+  "root": {
+    "props": {}
+  },
+  "content": [
+    {
+      "type": "Heading",
+      "props": {
+        "id": "Heading-b5af0023-849b-4602-97b7-01dd5df5d2a6",
+        "align": "left",
+        "heading": "Model Detail Page",
+        "size": "xl",
+        "padding": "8px",
+        "backgroundColor": "#ffffff",
+        "color": "#000000"
+      }
+    },
+    {
+      "type": "Tabs",
+      "props": {
+        "id": "Tabs-a091fe4c-160e-4439-b167-87668347844d",
+        "colorScheme": "teal",
+        "activeTabIndex": 1,
+        "variant": "line",
+        "isFitted": false,
+        "tabs": [
+          {
+            "label": "Models",
+            "items": [
+              {
+                "type": "Form",
+                "props": {
+                  "items": [
+                    {
+                      "type": "VStack",
+                      "props": {
+                        "items": [
+                          {
+                            "type": "HStack",
+                            "props": {
+                              "items": [
+                                {
+                                  "type": "InputWidget",
+                                  "props": {
+                                    "id": "InputWidget-80be3a23-0796-4010-a024-f7da6e0b552e",
+                                    "label": "Name",
+                                    "type": "text",
+                                    "fontSize": "16px",
+                                    "padding": "8px",
+                                    "placeholder": "name",
+                                    "name": "name"
+                                  }
+                                },
+                                {
+                                  "type": "InputWidget",
+                                  "props": {
+                                    "id": "InputWidget-9004c6b2-7428-4556-8a00-a2bd03dfd38e",
+                                    "label": "API Name",
+                                    "type": "text",
+                                    "fontSize": "16px",
+                                    "padding": "8px",
+                                    "placeholder": "API Name",
+                                    "name": "apiName"
+                                  }
+                                }
+                              ],
+                              "id": "HStack-22d79e76-162d-4f84-ac2a-7bed9a76aab5",
+                              "gap": 10,
+                              "width": "100%",
+                              "height": "100px",
+                              "padding": "0px",
+                              "background": ""
+                            }
+                          }
+                        ],
+                        "id": "VStack-22b2e035-3933-4a9f-86e3-d163a7388e90",
+                        "width": "100%",
+                        "height": "600px",
+                        "backgroundColor": "#ffffff",
+                        "align": "flex-start"
+                      }
+                    }
+                  ],
+                  "id": "Form-1778347d-20dd-47ff-bc49-756b70e05b78"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Language Words",
+            "items": [
+              {
+                "type": "Form",
+                "props": {
+                  "items": [
+                    {
+                      "type": "VStack",
+                      "props": {
+                        "items": [
+                          {
+                            "type": "HStack",
+                            "props": {
+                              "items": [
+                                {
+                                  "type": "SelectWidget",
+                                  "props": {
+                                    "id": "SelectWidget-69170b70-24ed-4afe-910d-b878247c0ae3",
+                                    "label": "Default Language",
+                                    "type": "text",
+                                    "fontSize": "16px",
+                                    "padding": "8px",
+                                    "placeholder": " ",
+                                    "options": "EN, FR, ES, AR",
+                                    "name": "defaultLanguage"
+                                  }
+                                },
+                                {
+                                  "type": "SelectWidget",
+                                  "props": {
+                                    "id": "SelectWidget-f93df804-7ccc-4061-b5be-1b3b0d0fea16",
+                                    "label": "Supported Languages",
+                                    "type": "text",
+                                    "fontSize": "16px",
+                                    "padding": "8px",
+                                    "placeholder": "",
+                                    "options": "EN, FR, AR, ES",
+                                    "name": "supportedLanguages"
+                                  }
+                                }
+                              ],
+                              "id": "HStack-4e9b9dcf-9d13-450e-9f4d-67b361145f99",
+                              "gap": 10,
+                              "width": "100%",
+                              "height": "100px",
+                              "padding": "0px",
+                              "background": ""
+                            }
+                          }
+                        ],
+                        "id": "VStack-8cc2a7c9-511f-46f2-a9a2-f2cd2fd80363",
+                        "width": "100%",
+                        "height": "600px",
+                        "backgroundColor": "#ffffff",
+                        "align": "flex-start"
+                      }
+                    }
+                  ],
+                  "id": "Form-ae132486-3281-481b-aa36-1e1e95271ba7",
+                  "width": "100%",
+                  "height": "300px"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "zones": {}
+}
