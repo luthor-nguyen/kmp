@@ -35,7 +35,7 @@
                     "size": "md",
                     "placeholder": "Database1",
                     "options": "MongoDB1, Postgres1,",
-                    "id": "Select-771158a4-f37a-400d-80bc-1dc5aabe6c5e",
+                    "id": "Select-221158a4-f37a-400d-80bc-1dc5aabe6c5e",
                     "name": "database1"
                   }
                 },
