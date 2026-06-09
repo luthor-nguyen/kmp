@@ -51,7 +51,7 @@
                         "props": {
                           "items": [
                             {
-                              "type": "VStack",
+                              "type": "HStack",
                               "props": {
                                 "items": [
                                   {
@@ -79,8 +79,8 @@
                                     }
                                   }
                                 ],
-                                "id": "VStack-e62c138b-8cf5-46d8-be0d-c15393605f1c",
-                                "gap": 16,
+                                "id": "HStack-e62c138b-8cf5-46d8-be0d-c15393605f1c",
+                                "gap": 6,
                                 "width": "100%",
                                 "height": "120px",
                                 "padding": "0px",
@@ -119,7 +119,7 @@
                                   }
                                 ],
                                 "id": "HStack-f2c594ad-de55-4784-a461-f25f3b233918",
-                                "gap": 16,
+                                "gap": 6,
                                 "width": "100%",
                                 "height": "100px",
                                 "padding": "0px",
@@ -145,7 +145,7 @@
                                 ],
                                 "id": "HStack-452b5d2d-1fd4-4594-9c4b-5bde65de3ea4",
                                 "gap": 16,
-                                "width": "48%",
+                                "width": "100%",
                                 "height": "120px",
                                 "padding": "0px",
                                 "background": ""
@@ -172,9 +172,46 @@
                                       "height": "50px",
                                       "name": "isRequired"
                                     }
+                                  },
+                                  {
+                                    "type": "VStack",
+                                    "props": {
+                                      "items": [
+                                        {
+                                          "type": "Text",
+                                          "props": {
+                                            "align": "left",
+                                            "text": "Difficulty",
+                                            "fontSize": "16px",
+                                            "padding": "8px",
+                                            "margin": "0px",
+                                            "fontWeight": "400",
+                                            "backgroundColor": "#ffffff",
+                                            "color": "#000000",
+                                            "id": "Text-493618de-9327-4cfb-a41d-f892c3a28a05",
+                                            "name": "difficulty"
+                                          }
+                                        },
+                                        {
+                                          "type": "Slider",
+                                          "props": {
+                                            "name": "slider",
+                                            "defaultValue": 30,
+                                            "colorScheme": "blue",
+                                            "width": "full",
+                                            "id": "Slider-255e8989-972f-4c69-9a74-7d8a2ac9c236"
+                                          }
+                                        }
+                                      ],
+                                      "width": "100%",
+                                      "height": "100px",
+                                      "backgroundColor": "",
+                                      "align": "",
+                                      "id": "VStack-ca643a3e-8085-4fe4-aa7e-e46ac144fbe7"
+                                    }
                                   }
                                 ],
-                                "gap": 16,
+                                "gap": 6,
                                 "width": "100%",
                                 "height": "100px",
                                 "padding": "0px",
