@@ -1,0 +1,223 @@
+{
+  "root": {
+    "props": {}
+  },
+  "content": [
+    {
+      "type": "Page",
+      "props": {
+        "items": [
+          {
+            "type": "Form",
+            "props": {
+              "items": [
+                {
+                  "type": "VStack",
+                  "props": {
+                    "items": [
+                      {
+                        "type": "Header",
+                        "props": {
+                          "items": [
+                            {
+                              "type": "Button",
+                              "props": {
+                                "id": "Button-e04894d0-ad37-463e-a283-d8e568008736",
+                                "text": "Save",
+                                "colorScheme": "teal",
+                                "variant": "solid",
+                                "action": "saveData",
+                                "message": "",
+                                "width": "",
+                                "padding": "8px",
+                                "name": "save"
+                              }
+                            }
+                          ],
+                          "id": "Header-3e3cb702-0ccc-4f2b-9b9a-61a937cb50ae",
+                          "title": "Event",
+                          "height": 14,
+                          "color": "",
+                          "fontSize": "24px",
+                          "backgroundColor": "#fff",
+                          "borderColor": "#efefef",
+                          "borderBottomWidth": "1px",
+                          "gap": 16,
+                          "name": "event"
+                        }
+                      },
+                      {
+                        "type": "VStack",
+                        "props": {
+                          "items": [
+                            {
+                              "type": "InputFormField",
+                              "props": {
+                                "id": "InputFormField-d0158595-37d4-41d3-a583-61d42285ef5d",
+                                "label": "Incidient Number",
+                                "type": "text",
+                                "fontSize": "16px",
+                                "padding": "8px",
+                                "placeholder": "",
+                                "name": "incidentnumber"
+                              }
+                            },
+                            {
+                              "type": "TextareaFormField",
+                              "props": {
+                                "id": "TextareaFormField-31e67e08-0a03-4ede-8242-9f0e93b2e395",
+                                "label": "Summary",
+                                "type": "text",
+                                "fontSize": "16px",
+                                "padding": "8px",
+                                "placeholder": "",
+                                "name": "summary"
+                              }
+                            },
+                            {
+                              "type": "HStack",
+                              "props": {
+                                "items": [
+                                  {
+                                    "type": "SelectFormField",
+                                    "props": {
+                                      "id": "SelectFormField-ec92810c-f952-45da-9246-c5e02e5759c8",
+                                      "label": "Status",
+                                      "type": "text",
+                                      "fontSize": "16px",
+                                      "padding": "8px",
+                                      "placeholder": "",
+                                      "options": "Open, Pending, Closed",
+                                      "name": "status"
+                                    }
+                                  },
+                                  {
+                                    "type": "SelectFormField",
+                                    "props": {
+                                      "id": "SelectFormField-3873c5e3-664f-4cb9-aa2a-a9fb7cfd2593",
+                                      "label": "Priority",
+                                      "type": "text",
+                                      "fontSize": "16px",
+                                      "padding": "8px",
+                                      "placeholder": "",
+                                      "options": "Low, Normal, High",
+                                      "name": "priority"
+                                    }
+                                  }
+                                ],
+                                "id": "HStack-f2c594ad-de55-4784-a461-f25f3b233918",
+                                "gap": 6,
+                                "width": "100%",
+                                "height": "100px",
+                                "padding": "0px",
+                                "background": ""
+                              }
+                            },
+                            {
+                              "type": "TextareaFormField",
+                              "props": {
+                                "id": "TextareaFormField-b41ad56a-699a-4bbf-af15-bdb4406d40a3",
+                                "label": "Location",
+                                "type": "text",
+                                "fontSize": "16px",
+                                "padding": "8px",
+                                "placeholder": "",
+                                "name": "location"
+                              }
+                            },
+                            {
+                              "type": "VStack",
+                              "props": {
+                                "items": [
+                                  {
+                                    "type": "Text",
+                                    "props": {
+                                      "id": "Text-493618de-9327-4cfb-a41d-f892c3a28a05",
+                                      "align": "left",
+                                      "text": "Difficulty",
+                                      "fontSize": "16px",
+                                      "padding": "8px",
+                                      "margin": "0px",
+                                      "fontWeight": "400",
+                                      "backgroundColor": "#ffffff",
+                                      "color": "#000000",
+                                      "name": "difficulty"
+                                    }
+                                  },
+                                  {
+                                    "type": "Slider",
+                                    "props": {
+                                      "id": "Slider-255e8989-972f-4c69-9a74-7d8a2ac9c236",
+                                      "name": "slider",
+                                      "defaultValue": 30,
+                                      "colorScheme": "blue",
+                                      "width": "full"
+                                    }
+                                  }
+                                ],
+                                "width": "100%",
+                                "height": "80px",
+                                "backgroundColor": "",
+                                "align": "",
+                                "id": "VStack-52babb01-ad42-4983-9a9d-91cb97b044b2"
+                              }
+                            },
+                            {
+                              "type": "HStack",
+                              "props": {
+                                "items": [
+                                  {
+                                    "type": "Checkbox",
+                                    "props": {
+                                      "id": "Checkbox-586d9d2a-dc00-468e-990b-e9df1ab5ae2b",
+                                      "align": "left",
+                                      "text": "Is Required",
+                                      "width": "100%",
+                                      "height": "50px",
+                                      "name": "isRequired"
+                                    }
+                                  }
+                                ],
+                                "id": "HStack-59481c63-d7c6-4f3d-a812-1e789092b8e5",
+                                "gap": 6,
+                                "width": "100%",
+                                "height": "50px",
+                                "padding": "0px",
+                                "background": ""
+                              }
+                            }
+                          ],
+                          "id": "VStack-f02f6a64-669a-40b7-9a41-e4289cfcfc2d",
+                          "width": "100%",
+                          "height": "500px",
+                          "backgroundColor": "",
+                          "align": ""
+                        }
+                      }
+                    ],
+                    "width": "100%",
+                    "height": "700px",
+                    "backgroundColor": "#fff",
+                    "align": "",
+                    "id": "VStack-225fd5fc-dc7b-4569-a99f-a2894f39e381",
+                    "boxShadow": "3xl",
+                    "borderRadius": "3xl"
+                  }
+                }
+              ],
+              "width": "100%",
+              "height": "700px",
+              "id": "Form-6221b8dc-80aa-4370-a7ea-5bda174ac082"
+            }
+          }
+        ],
+        "title": "Page 1",
+        "width": "100%",
+        "height": "100vh",
+        "background": "",
+        "id": "Page-9be3664d-1954-47fe-8c6e-b6d421f3dfaa"
+      }
+    }
+  ],
+  "zones": {}
+}
