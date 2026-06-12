@@ -2,6 +2,7 @@
   "forms": [
     { "id": "event",      "name": "Event",             "url": "Event.json" },
     { "id": "event-2",      "name": "Event 2",         "url": "Event-2.json" },
+    { "id": "align-demo",      "name": "Align Demo",           "url": "align-demo.json" },
     { "id": "audit-logs", "name": "Audit Logs",        "url": "Audit-logs.json" },
     { "id": "model",      "name": "Model Detail Page", "url": "model-detail-page.json" },
     { "id": "elements",   "name": "Form Elements",     "url": "Form Elements.json" }
