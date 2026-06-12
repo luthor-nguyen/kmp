@@ -35,7 +35,7 @@
                             }
                           ],
                           "id": "Header-3e3cb702-0ccc-4f2b-9b9a-61a937cb50ae",
-                          "title": "Align Demo",
+                          "title": "Event",
                           "height": 14,
                           "color": "",
                           "fontSize": "24px",
@@ -58,7 +58,7 @@
                                     "type": "InputFormField",
                                     "props": {
                                       "id": "InputFormField-d0158595-37d4-41d3-a583-61d42285ef5d",
-                                      "label": "Incidient Number",
+                                      "label": "Incident Number",
                                       "type": "text",
                                       "fontSize": "16px",
                                       "padding": "8px",
@@ -85,7 +85,6 @@
                                 "height": "120px",
                                 "padding": "0px",
                                 "background": ""
-                                "align": "bottom",
                               }
                             },
                             {
@@ -96,7 +95,7 @@
                                     "type": "InputFormField",
                                     "props": {
                                       "id": "InputFormField-d0158595-37d4-41d3-a583-61d42285ef5e",
-                                      "label": "Incidient Number",
+                                      "label": "Incident Number",
                                       "type": "text",
                                       "fontSize": "16px",
                                       "padding": "8px",
@@ -122,8 +121,8 @@
                                 "width": "100%",
                                 "height": "120px",
                                 "padding": "0px",
-                                "background": ""
-                                "align": "center",
+                                "background": "",
+                                "align": "center"
                               }
                             },
                             {
