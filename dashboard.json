@@ -362,7 +362,7 @@
         "padding": "24px",
         "paddingTop": "128px",
         "background": "#e7edf7",
-        "direction":"row"
+        "direction":"column"
       }
     }
   ],
