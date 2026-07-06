@@ -92,6 +92,7 @@
                     "color": "#111827",
                     "margin": "0 0 8px 0",
                     "backgroundColor": "transparent",
+                    "width": "100%",
                     "textAlign": "center"
                   }
                 },
