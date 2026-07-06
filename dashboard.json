@@ -361,7 +361,8 @@
         "height": "100vh",
         "padding": "24px",
         "paddingTop": "128px",
-        "background": "#e7edf7"
+        "background": "#e7edf7",
+        "direction":"row"
       }
     }
   ],
