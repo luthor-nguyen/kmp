@@ -37,7 +37,7 @@
                           "rightIconSrc": "https://raw.githubusercontent.com/luthor-nguyen/kmp/refs/heads/main/icon-arrow-down.png",
                           "rightIconSize": 16,
                           "textFontFamily": "",
-                          "textFontSize": "20",
+                          "textFontSize": "15",
                           "textColor": "black",
                           "textFontWeight": "500"
                         }
