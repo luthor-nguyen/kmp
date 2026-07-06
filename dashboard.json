@@ -47,7 +47,7 @@
                         "props": {
                           "id": "Text-HeaderStatus",
                           "text": "ASSIGNED TO RESPONSE",
-                          "fontSize": "16px",
+                          "fontSize": "14px",
                           "fontWeight": "600",
                           "color": "#1500BE",
                           "margin": "0px",
