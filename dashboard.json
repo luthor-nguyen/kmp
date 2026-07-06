@@ -1,0 +1,369 @@
+{
+  "root": {
+    "props": {}
+  },
+  "content": [
+    {
+      "type": "Flex",
+      "props": {
+        "items": [
+          {
+            "type": "HStack",
+            "props": {
+              "items": [
+                {
+                  "type": "Flex",
+                  "props": {
+                    "items": [
+                      {
+                        "type": "IconButton",
+                        "props": {
+                          "id": "IconButton-PROFILE",
+                          "name": "IconButton-PROFILE",
+                          "text": "Pol3[a3737]",
+                          "src": "https://raw.githubusercontent.com/luthor-nguyen/kmp/refs/heads/main/icon_profile-v2.png",
+                          "alt": "PROFILE",
+                          "boxSize": 48,
+                          "objectFit": "contain",
+                          "background": "#EFF4FF",
+                          "border": "1px solid #e5e7eb",
+                          "boxShadow": "0 12px 24px rgba(15,23,42,0.08)",
+                          "borderRadius": "24px",
+                          "padding": "16px",
+                          "width": "100%",
+                          "alignItems": "center",
+                          "direction": "row",
+                          "gap": 3,
+                          "rightIconSrc": "https://raw.githubusercontent.com/luthor-nguyen/kmp/refs/heads/main/icon-arrow-down.png",
+                          "rightIconSize": 16,
+                          "textFontFamily": "",
+                          "textFontSize": "20",
+                          "textColor": "black",
+                          "textFontWeight": "500"
+                        }
+                      },
+                      {
+                        "type": "Text",
+                        "props": {
+                          "id": "Text-HeaderStatus",
+                          "text": "ASSIGNED TO RESPONSE",
+                          "fontSize": "18px",
+                          "fontWeight": "600",
+                          "color": "#1500BE",
+                          "margin": "0px",
+                          "backgroundColor": "transparent",
+                          "textAlign": "right"
+                        }
+                      }
+                    ],
+                    "id": "Flex-HeaderRow",
+                    "direction": "row",
+                    "gap": 16,
+                    "justify": "space-between",
+                    "align": "center",
+                    "width": "100%",
+                    "height": "100%"
+                  }
+                }
+              ],
+              "id": "HStack-TopFixedHeader",
+              "width": "100%",
+              "height": "96px",
+              "padding": 16,
+              "background": "#ffffff",
+              "border": "1px solid #e6e9f0",
+              "borderRadius": "24px",
+              "boxShadow": "0 20px 40px rgba(0,0,0,0.08)",
+              "fixedPosition": "top",
+              "top": "16px"
+            }
+          },
+          {
+            "type": "VStack",
+            "props": {
+              "items": [
+                {
+                  "type": "Text",
+                  "props": {
+                    "id": "Text-PageHeading",
+                    "text": "Executive Dashboard",
+                    "fontSize": "30px",
+                    "fontWeight": "700",
+                    "color": "#111827",
+                    "margin": "0 0 8px 0",
+                    "backgroundColor": "transparent",
+                    "textAlign": "center"
+                  }
+                },
+                {
+                  "type": "Grid",
+                  "props": {
+                    "items": [
+                      {
+                        "type": "IconButton",
+                        "props": {
+                          "id": "IconButton-RESPONSES",
+                          "name": "IconButton-RESPONSES",
+                          "text": "RESPONSES",
+                          "src": "https://raw.githubusercontent.com/luthor-nguyen/kmp/refs/heads/main/icon-responses-v2.png",
+                          "alt": "RESPONSES",
+                          "boxSize": 48,
+                          "objectFit": "contain",
+                          "background": "#ffffff",
+                          "border": "1px solid #e5e7eb",
+                          "boxShadow": "0 12px 24px rgba(15,23,42,0.08)",
+                          "borderRadius": "24px",
+                          "padding": "16px",
+                          "width": "100%",
+                          "alignItems": "center",
+                          "direction": "column",
+                          "gap": 3,
+                          "badgeCount": 2,
+                          "badgeBackground": "#ff3b30",
+                          "badgeColor": "#ffffff",
+                          "badgeSize": "20px",
+                          "badgeTop": "-4px",
+                          "badgeRight": "-6px",
+                          "badgeFontSize": "12px",
+                          "textFontWeight": "700"
+                        }
+                      },
+                      {
+                        "type": "IconButton",
+                        "props": {
+                          "id": "IconButton-MAP",
+                          "name": "IconButton-MAP",
+                          "text": "MAP",
+                          "src": "https://raw.githubusercontent.com/luthor-nguyen/kmp/refs/heads/main/icon-map-v2.png",
+                          "alt": "MAP",
+                          "boxSize": 48,
+                          "objectFit": "contain",
+                          "background": "#ffffff",
+                          "border": "1px solid #e5e7eb",
+                          "boxShadow": "0 12px 24px rgba(15,23,42,0.08)",
+                          "borderRadius": "24px",
+                          "padding": "16px",
+                          "width": "100%",
+                          "alignItems": "center",
+                          "direction": "column",
+                          "gap": 3,
+                          "textFontWeight": "700"
+                        }
+                      },
+                      {
+                        "type": "IconButton",
+                        "props": {
+                          "id": "IconButton-SIA",
+                          "name": "IconButton-SIA",
+                          "text": "SIA",
+                          "src": "https://raw.githubusercontent.com/luthor-nguyen/kmp/refs/heads/main/icon-sia-v2.png",
+                          "alt": "SIA",
+                          "boxSize": 48,
+                          "objectFit": "contain",
+                          "background": "#ffffff",
+                          "border": "1px solid #e5e7eb",
+                          "boxShadow": "0 12px 24px rgba(15,23,42,0.08)",
+                          "borderRadius": "24px",
+                          "padding": "16px",
+                          "width": "100%",
+                          "alignItems": "center",
+                          "direction": "column",
+                          "gap": 3,
+                          "textFontWeight": "700"
+                        }
+                      },
+                      {
+                        "type": "IconButton",
+                        "props": {
+                          "id": "IconButton-SOS",
+                          "name": "IconButton-SOS",
+                          "text": "SOS",
+                          "src": "https://raw.githubusercontent.com/luthor-nguyen/kmp/refs/heads/main/icon-sos-v2.png",
+                          "alt": "SOS",
+                          "boxSize": 48,
+                          "objectFit": "contain",
+                          "background": "#ffffff",
+                          "border": "1px solid #e5e7eb",
+                          "boxShadow": "0 12px 24px rgba(15,23,42,0.08)",
+                          "borderRadius": "24px",
+                          "padding": "16px",
+                          "width": "100%",
+                          "alignItems": "center",
+                          "direction": "column",
+                          "gap": 3,
+                          "textFontWeight": "700"
+                        }
+                      },
+                      {
+                        "type": "IconButton",
+                        "props": {
+                          "id": "IconButton-MYDETAILS",
+                          "name": "IconButton-MYDETAILS",
+                          "text": "MY DETAILS",
+                          "src": "https://raw.githubusercontent.com/luthor-nguyen/kmp/refs/heads/main/icon-details-v2.png",
+                          "alt": "MY DETAILS",
+                          "boxSize": 48,
+                          "objectFit": "contain",
+                          "background": "#ffffff",
+                          "border": "1px solid #e5e7eb",
+                          "boxShadow": "0 12px 24px rgba(15,23,42,0.08)",
+                          "borderRadius": "24px",
+                          "padding": "16px",
+                          "width": "100%",
+                          "alignItems": "center",
+                          "direction": "column",
+                          "gap": 3,
+                          "textFontWeight": "700"
+                        }
+                      },
+                      {
+                        "type": "IconButton",
+                        "props": {
+                          "id": "IconButton-PLANNEDEVENTS",
+                          "name": "IconButton-PLANNEDEVENTS",
+                          "text": "PLANNED EVENTS",
+                          "src": "https://raw.githubusercontent.com/luthor-nguyen/kmp/refs/heads/main/icon-events-v2.png",
+                          "alt": "PLANNED EVENTS",
+                          "boxSize": 48,
+                          "objectFit": "contain",
+                          "background": "#ffffff",
+                          "border": "1px solid #e5e7eb",
+                          "boxShadow": "0 12px 24px rgba(15,23,42,0.08)",
+                          "borderRadius": "24px",
+                          "padding": "16px",
+                          "width": "100%",
+                          "alignItems": "center",
+                          "direction": "column",
+                          "gap": 3,
+                          "textFontWeight": "700"
+                        }
+                      }
+                    ],
+                    "id": "Grid-CardGrid",
+                    "columns": 2,
+                    "rows": 3,
+                    "gap": 20,
+                    "width": "100%",
+                    "height": "520px",
+                    "background": "transparent",
+                    "padding": 10
+                  }
+                }
+              ],
+              "id": "VStack-MainCard",
+              "width": "100vw",
+              "height": "100%",
+              "padding": "10",
+              "background": "#ffffff",
+              "border": "1px solid #e6e9f0",
+              "borderRadius": "32px",
+              "boxShadow": "0 24px 60px rgba(15,23,42,0.08)"
+            }
+          },
+          {
+            "type": "HStack",
+            "props": {
+              "items": [
+                {
+                  "type": "VStack",
+                  "props": {
+                    "items": [
+                      {
+                        "type": "Text",
+                        "props": {
+                          "id": "Text-BottomText1",
+                          "text": "LIVE FEED",
+                          "fontSize": "14px",
+                          "fontWeight": "600",
+                          "color": "#6C717C",
+                          "margin": "0",
+                          "backgroundColor": "transparent",
+                          "padding": ""
+                        }
+                      },
+                      {
+                        "type": "Text",
+                        "props": {
+                          "id": "Text-BottomText2",
+                          "text": "Central Monitoring",
+                          "fontSize": "22px",
+                          "fontWeight": "600",
+                          "color": "#ffffff",
+                          "margin": "0",
+                          "backgroundColor": "transparent",
+                          "textAlign": "left",
+                          "padding": "0"
+                        }
+                      }
+                    ],
+                    "id": "VStack-22b2e035-3933-4a9f-86e3-d163a7388e90",
+                    "width": "100%",
+                    "height": "100%",
+                    "backgroundColor": "",
+                    "align": "flex-start"
+                  }
+                },
+                {
+                  "type": "Flex",
+                  "props": {
+                    "items": [
+                      {
+                        "type": "Text",
+                        "props": {
+                          "id": "Text-BottomText3",
+                          "text": "\u25cf",
+                          "fontSize": "16px",
+                          "fontWeight": "600",
+                          "color": "green",
+                          "margin": "0",
+                          "backgroundColor": "transparent"
+                        }
+                      },
+                      {
+                        "type": "Text",
+                        "props": {
+                          "id": "Text-BottomText4",
+                          "text": "14:22",
+                          "fontSize": "16px",
+                          "fontWeight": "600",
+                          "color": "#ffffff",
+                          "margin": "0",
+                          "backgroundColor": "transparent"
+                        }
+                      }
+                    ],
+                    "id": "Flex-22d79e76-162d-4f84-ac2a-7bed9a76aab5",
+                    "gap": 0,
+                    "width": "100%",
+                    "height": "100%",
+                    "padding": "0px",
+                    "background": "",
+                    "direction": "row",
+                    "justify": "flex-end"
+                  }
+                }
+              ],
+              "id": "HStack-BottomFixedBar",
+              "width": "90%",
+              "height": "32px",
+              "padding": "10",
+              "background": "#0f172a",
+              "borderRadius": "42px",
+              "boxShadow": "0 24px 40px rgba(15,23,42,0.24)",
+              "fixedPosition": "bottom",
+              "bottom": "16px",
+              "gap": 0
+            }
+          }
+        ],
+        "id": "Flex-RootPage",
+        "width": "100%",
+        "height": "100vh",
+        "padding": 24,
+        "paddingTop": "128px",
+        "background": "#e7edf7"
+      }
+    }
+  ],
+  "zones": {}
+}
