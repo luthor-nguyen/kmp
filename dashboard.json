@@ -357,7 +357,6 @@
         "width": "100%",
         "height": "100vh",
         "padding": "0",
-        "paddingTop": "128px",
         "background": "#e7edf7",
         "direction":"column"
       }
