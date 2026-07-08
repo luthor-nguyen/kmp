@@ -276,7 +276,7 @@
                           "color": "#6C717C",
                           "marginLeft": "20px",
                           "backgroundColor": "transparent",
-                          "padding": "6px"
+                          "padding": "16px"
                         }
                       },
                       {
@@ -290,7 +290,7 @@
                           "marginLeft": "20px",
                           "backgroundColor": "transparent",
                           "textAlign": "left",
-                          "padding": "6px"
+                          "padding": "16px"
                         }
                       }
                     ],
