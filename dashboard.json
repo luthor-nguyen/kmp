@@ -39,7 +39,8 @@
                           "textFontFamily": "",
                           "textFontSize": "14",
                           "textColor": "black",
-                          "textFontWeight": "500"
+                          "textFontWeight": "500",
+                          "margin": "5px"
                         }
                       },
                       {
@@ -50,7 +51,7 @@
                           "fontSize": "14px",
                           "fontWeight": "600",
                           "color": "#1500BE",
-                          "margin": "0px",
+                          "margin": "5px",
                           "backgroundColor": "transparent",
                           "textAlign": "right"
                         }
