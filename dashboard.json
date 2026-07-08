@@ -314,7 +314,8 @@
                           "fontWeight": "600",
                           "color": "green",
                           "margin": "0",
-                          "backgroundColor": "#ffffff"
+                          "backgroundColor": "#ffffff",
+                          "textAlign": "right"
                         }
                       },
                       {
