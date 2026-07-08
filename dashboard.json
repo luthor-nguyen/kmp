@@ -314,7 +314,7 @@
                           "fontWeight": "600",
                           "color": "green",
                           "margin": "0",
-                          "backgroundColor": "transparent"
+                          "backgroundColor": "#ffffff"
                         }
                       },
                       {
@@ -326,7 +326,7 @@
                           "fontWeight": "600",
                           "color": "#ffffff",
                           "margin": "0",
-                          "backgroundColor": "transparent"
+                          "backgroundColor": "#6C717C"
                         }
                       }
                     ],
