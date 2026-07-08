@@ -336,7 +336,8 @@
                     "padding": "0",
                     "background": "",
                     "direction": "row",
-                    "justify": "flex-end"
+                    "justify": "flex-end",
+                    "align": "center"
                   }
                 }
               ],
