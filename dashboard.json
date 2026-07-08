@@ -274,7 +274,7 @@
                           "fontSize": "14px",
                           "fontWeight": "600",
                           "color": "#6C717C",
-                          "margin": "0",
+                          "margin": "10px",
                           "backgroundColor": "transparent",
                           "padding": "0"
                         }
@@ -284,10 +284,10 @@
                         "props": {
                           "id": "Text-BottomText2",
                           "text": "Central Monitoring",
-                          "fontSize": "22px",
+                          "fontSize": "16px",
                           "fontWeight": "600",
                           "color": "#ffffff",
-                          "margin": "0",
+                          "margin": "10px",
                           "backgroundColor": "transparent",
                           "textAlign": "left",
                           "padding": "0"
